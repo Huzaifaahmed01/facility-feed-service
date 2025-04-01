@@ -134,3 +134,7 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# Add .json and .json.gz files to ignore
+*.json
+*.json.gz

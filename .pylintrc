@@ -1,0 +1,52 @@
+[MASTER]
+# Specify a configuration file.
+rcfile=
+
+# Python code to analyze
+ignore=CVS
+
+# Files or directories to be skipped. They should be base names, not paths.
+ignore-patterns=
+
+[MESSAGES CONTROL]
+# Only show warnings with the listed confidence levels. Leave empty to show all.
+confidence=
+
+# Disable the message, report, category or checker with the given id(s).
+disable= C0114, C0115, C0116  # Disable missing module, class, and function docstrings
+
+[REPORTS]
+# Set the output format. Available formats are text, parseable, colorized, json and msvs (visual studio).
+output-format=text
+
+# Tells whether to display a full report or only the messages.
+reports=no
+
+[FORMAT]
+# Maximum number of characters on a single line.
+max-line-length=79
+
+# String used as indentation unit.
+indent-string='    '
+
+[DESIGN]
+# Maximum number of arguments for function / method.
+max-args=5
+
+# Maximum number of attributes for a class (see R0902).
+max-attributes=10
+
+# Maximum number of public methods for a class (see R0904).
+max-public-methods=20
+
+[TYPECHECK]
+# List of module names for which member attributes should not be checked.
+ignored-modules=
+
+[SIMILARITIES]
+# Minimum lines number of a similarity.
+min-similarity-lines=4
+
+[LOGGING]
+# Logging modules to check that the string format arguments are in logging function parameter format.
+logging-modules=logging

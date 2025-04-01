@@ -1,0 +1,41 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environment
+venv/
+.venv/
+env/
+*.env
+
+# Env files
+.env
+*.env.*
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Logs
+*.log
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# Docker-related
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Miscellaneous
+*.DS_Store
+db-init.sql
+.github/
+deploy/
